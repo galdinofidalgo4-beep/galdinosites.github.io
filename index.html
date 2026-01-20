@@ -1,39 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Escolha seu mini-site profissional pelo WhatsApp e receba em 24h. Galdino Sites – rápido, simples e confiável.">
-<title>Galdino Sites – Escolha seu Plano</title>
-<style>
-  body { font-family: Arial, sans-serif; background:#0f172a; color:#fff; text-align:center; padding:30px; }
-  h1 { font-size:2rem; margin-bottom:20px; }
-  .planos { display:flex; flex-direction:column; gap:20px; max-width:400px; margin:0 auto; }
-  .plano { background:#1e293b; padding:20px; border-radius:10px; }
-  .plano h2 { margin-bottom:10px; }
-  .plano a { display:block; margin-top:10px; padding:10px; text-decoration:none; color:#fff; background:#7c3aed; border-radius:8px; }
-  .plano a:hover { background:#6d28d9; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Escolha seu plano de mini-site profissional e receba atendimento pelo WhatsApp. Descubra a diferença entre Básico, Profissional e Premium.">
+  <title>Galdino Sites - Escolha seu Plano</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111827;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    p.intro {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+    .planos {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .plano {
+      background-color: #1f2937;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .plano h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    .plano p {
+      margin: 10px 0;
+      line-height: 1.5;
+      color: #d1d5db;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .basico { background-color: #ef4444; color: #fff; }
+    .profissional { background-color: #8b5cf6; color: #fff; }
+    .premium { background-color: #f59e0b; color: #fff; }
+    .button:hover { opacity: 0.8; }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Galdino Sites</h1>
-<p>Mini-sites profissionais para vender pelo WhatsApp. Escolha seu plano:</p>
+  <h1>Galdino Sites</h1>
+  <p class="intro">
+    Crie seu mini-site profissional para vender pelo WhatsApp. Veja a diferença entre os planos e escolha o ideal para você!
+  </p>
 
-<div class="planos">
-  <div class="plano">
-    <h2>Plano Básico – R$150</h2>
-    <a href="https://mpago.la/1p18mEV" target="_blank">Comprar Plano Básico</a>
+  <div class="planos">
+
+    <div class="plano">
+      <h2>Plano Básico – R$150</h2>
+      <p>Ideal para quem quer começar agora. Inclui:</p>
+      <ul>
+        <li>Mini-site profissional de 1 página</li>
+        <li>Design responsivo (celular e PC)</li>
+        <li>Botão direto para WhatsApp</li>
+        <li>Texto básico de apresentação</li>
+        <li>Publicação no GitHub Pages</li>
+      </ul>
+      <a href="pix-basico.html" class="button basico">Escolher Plano Básico</a>
+    </div>
+
+    <div class="plano">
+      <h2>Plano Profissional – R$200</h2>
+      <p>Mais completo, com maior impacto. Inclui tudo do Básico, mais:</p>
+      <ul>
+        <li>Texto comercial otimizado</li>
+        <li>Seção de diferenciais</li>
+        <li>Ajustes personalizados de cores e layout</li>
+        <li>Suporte por 7 dias</li>
+      </ul>
+      <a href="pix-profissional.html" class="button profissional">Escolher Plano Profissional</a>
+    </div>
+
+    <div class="plano">
+      <h2>Plano Premium – R$250</h2>
+      <p>Máxima credibilidade. Inclui tudo do Profissional, mais:</p>
+      <ul>
+        <li>Seção de depoimentos</li>
+        <li>Seção de localização (Google Maps)</li>
+        <li>Formulário de contato</li>
+        <li>Suporte por 15 dias</li>
+      </ul>
+      <a href="pix-premium.html" class="button premium">Escolher Plano Premium</a>
+    </div>
+
   </div>
-  <div class="plano">
-    <h2>Plano Profissional – R$200</h2>
-    <a href="https://mpago.la/2ysNw5m" target="_blank">Comprar Plano Profissional</a>
-  </div>
-  <div class="plano">
-    <h2>Plano Premium – R$250</h2>
-    <a href="https://mpago.la/2UyKfxb" target="_blank">Comprar Plano Premium</a>
-  </div>
-</div>
+
+  <footer>© 2026 • Galdino Sites</footer>
 
 </body>
 </html>
@@ -86,8 +166,8 @@
 <a class="whatsapp" href="https://wa.me/5598991395051?text=Olá,%20vim%20pelo%20site%20Galdino%20Sites%20e%20quero%20o%20Plano%20Profissional" target="_blank">💬 Enviar comprovante</a>
 
 </body>
-    </html>
-    <!DOCTYPE html>
+</html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -112,3 +192,4 @@
 
 </body>
 </html>
+
